@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='rest_api_demo',
     version='1.0.0',
-    description='Boilerplate code for a RESTful API based on Flask-RESTPlus',
+    description='Boilerplate code for a RESTful API based on flask-restx',
     url='https://github.com/postrational/rest_api_demo',
     author='Michal Karzynski',
 
@@ -20,9 +20,9 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
 
-    keywords='rest restful api flask swagger openapi flask-restplus',
+    keywords='rest restful api flask swagger openapi flask-restx',
 
     packages=find_packages(),
 
-    install_requires=['flask-restplus==0.9.2', 'Flask-SQLAlchemy==2.1'],
+    install_requires=['flask-restx', 'Flask-SQLAlchemy==2.1'],
 )
